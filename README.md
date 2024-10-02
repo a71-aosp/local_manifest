@@ -1,28 +1,11 @@
-PixelOS 14 for Samsung Galaxy A71
+ArrowOS 13.1 for Samsung Galaxy A71
 ------------------------------------
 
 Create directories
 
-	$ mkdir Pixel14
-	$ cd Pixel14
+	$ mkdir Arrow13
+	$ cd Arrow13
 
-Init the base manifest
+Run script:
 
-	$ repo init -u https://github.com/PixelOS-AOSP/manifest.git -b fourteen --git-lfs
-  
-Add the local manifest
-
-  Take the xml file for your device and copy it to .repo/local_manifests/
-
-Then sync up with this command:
-
-	$ repo sync --force-sync 
-
--------------
- 
-_Building from source_
----------------
-
-	$ . build/envsetup.sh
-	$ lunch aosp_a71-ap2a-userdebug
-	$ mka bacon
+	$ wget https://github.com/onesmiledx/build_script/blob/main/build_arrow.sh && sh build_arrow.sh
