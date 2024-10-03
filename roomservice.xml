@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project name="a71-aosp/android_device_samsung_a71" path="device/samsung/a71" remote="github" revision="fourteen" />
-  <project name="a71-aosp/android_device_samsung_a71-common" path="device/samsung/a71-common" remote="github" revision="fourteen" />
+  <project name="a71-aosp/android_device_samsung_a71" path="device/samsung/a71" remote="github" revision="thirteen" />
+  <project name="a71-aosp/android_device_samsung_a71-common" path="device/samsung/a71-common" remote="github" revision="thirteen" />
   <project name="a71-devs/android_kernel_samsung_a71" path="kernel/samsung/a71" remote="github" revision="lineage-20" />
   <project name="a71-devs/android_vendor_samsung_a71" path="vendor/samsung/a71" remote="github" revision="lineage-20" />
   <project name="a71-devs/android_vendor_samsung_a71-common" path="vendor/samsung/a71-common" remote="github" revision="lineage-20" />
