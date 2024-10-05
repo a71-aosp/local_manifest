@@ -8,5 +8,6 @@
   <project name="onesmiledx/android_hardware_samsung" path="hardware/samsung" remote="github" revision="fourteen" />
   <project name="onesmiledx/hardware_samsung-extra_interfaces" path="hardware/samsung-ext/interfaces" remote="github" revision="fourteen" />
   <project name="TogoFire/packages_apps_ViPER4AndroidFX" path="packages/apps/ViPER4AndroidFX" remote="github" revision="v4a" />
+  <project name="LineageOS/android_hardware_qcom_wlan" path="hardware/qcom-caf/wlan" remote="github" revision="lineage-21.0" />
 </manifest>
 
